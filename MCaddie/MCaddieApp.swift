@@ -25,7 +25,7 @@ struct MCaddieApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            iOSWelcomeView()
         }
         .modelContainer(sharedModelContainer)
     }

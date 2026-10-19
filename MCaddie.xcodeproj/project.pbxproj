@@ -6,6 +6,11 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0D29D76A3085948E00078AE7 /* MCaddie Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D29D77630859C5D00078AE7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D77530859C5500078AE7 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0D29D72E3085933D00078AE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +26,49 @@
 			remoteGlobalIDString = 0D29D71D3085933B00078AE7;
 			remoteInfo = MCaddie;
 		};
+		0D29D7593085948E00078AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D29D7163085933B00078AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D29D74B3085948D00078AE7;
+			remoteInfo = "MCaddie Watch App Watch App";
+		};
+		0D29D7633085948E00078AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D29D7163085933B00078AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D29D74B3085948D00078AE7;
+			remoteInfo = "MCaddie Watch App Watch App";
+		};
+		0D29D7683085948E00078AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D29D7163085933B00078AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D29D74B3085948D00078AE7;
+			remoteInfo = "MCaddie Watch App Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D29D76E3085948E00078AE7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				0D29D76A3085948E00078AE7 /* MCaddie Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0D29D71E3085933B00078AE7 /* MCaddie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCaddie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D72D3085933D00078AE7 /* MCaddieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCaddieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D7373085933D00078AE7 /* MCaddieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCaddieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MCaddie Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D29D7583085948E00078AE7 /* MCaddie Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCaddie Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D29D7623085948E00078AE7 /* MCaddie Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCaddie Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D29D77530859C5500078AE7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +85,21 @@
 		0D29D73A3085933D00078AE7 /* MCaddieUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MCaddieUITests;
+			sourceTree = "<group>";
+		};
+		0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MCaddie Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		0D29D75B3085948E00078AE7 /* MCaddie Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MCaddie Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0D29D7653085948E00078AE7 /* MCaddie Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MCaddie Watch App Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -63,15 +120,34 @@
 			files = (
 			);
 		};
+		0D29D7493085948D00078AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0D29D7553085948E00078AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		0D29D75F3085948E00078AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0D29D7153085933B00078AE7 = {
 			isa = PBXGroup;
 			children = (
+				0D29D77530859C5500078AE7 /* .gitignore */,
 				0D29D7203085933B00078AE7 /* MCaddie */,
 				0D29D7303085933D00078AE7 /* MCaddieTests */,
 				0D29D73A3085933D00078AE7 /* MCaddieUITests */,
+				0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */,
+				0D29D75B3085948E00078AE7 /* MCaddie Watch App Watch AppTests */,
+				0D29D7653085948E00078AE7 /* MCaddie Watch App Watch AppUITests */,
 				0D29D71F3085933B00078AE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +158,9 @@
 				0D29D71E3085933B00078AE7 /* MCaddie.app */,
 				0D29D72D3085933D00078AE7 /* MCaddieTests.xctest */,
 				0D29D7373085933D00078AE7 /* MCaddieUITests.xctest */,
+				0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */,
+				0D29D7583085948E00078AE7 /* MCaddie Watch App Watch AppTests.xctest */,
+				0D29D7623085948E00078AE7 /* MCaddie Watch App Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +175,12 @@
 				0D29D71A3085933B00078AE7 /* Sources */,
 				0D29D71B3085933B00078AE7 /* Frameworks */,
 				0D29D71C3085933B00078AE7 /* Resources */,
+				0D29D76E3085948E00078AE7 /* Embed Watch Content */,
 			);
 			buildRules = (
+			);
+			dependencies = (
+				0D29D7693085948E00078AE7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				0D29D7203085933B00078AE7 /* MCaddie */,
@@ -149,6 +232,66 @@
 			productReference = 0D29D7373085933D00078AE7 /* MCaddieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D29D76B3085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch App" */;
+			buildPhases = (
+				0D29D7483085948D00078AE7 /* Sources */,
+				0D29D7493085948D00078AE7 /* Frameworks */,
+				0D29D74A3085948D00078AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */,
+			);
+			name = "MCaddie Watch App Watch App";
+			productName = "MCaddie Watch App Watch App";
+			productReference = 0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D29D7573085948E00078AE7 /* MCaddie Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D29D76F3085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch AppTests" */;
+			buildPhases = (
+				0D29D7543085948E00078AE7 /* Sources */,
+				0D29D7553085948E00078AE7 /* Frameworks */,
+				0D29D7563085948E00078AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D29D75A3085948E00078AE7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D29D75B3085948E00078AE7 /* MCaddie Watch App Watch AppTests */,
+			);
+			name = "MCaddie Watch App Watch AppTests";
+			productName = "MCaddie Watch App Watch AppTests";
+			productReference = 0D29D7583085948E00078AE7 /* MCaddie Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D29D7613085948E00078AE7 /* MCaddie Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D29D7723085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */;
+			buildPhases = (
+				0D29D75E3085948E00078AE7 /* Sources */,
+				0D29D75F3085948E00078AE7 /* Frameworks */,
+				0D29D7603085948E00078AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D29D7643085948E00078AE7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D29D7653085948E00078AE7 /* MCaddie Watch App Watch AppUITests */,
+			);
+			name = "MCaddie Watch App Watch AppUITests";
+			productName = "MCaddie Watch App Watch AppUITests";
+			productReference = 0D29D7623085948E00078AE7 /* MCaddie Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +313,17 @@
 						CreatedOnToolsVersion = 27.1;
 						TestTargetID = 0D29D71D3085933B00078AE7;
 					};
+					0D29D74B3085948D00078AE7 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					0D29D7573085948E00078AE7 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 0D29D74B3085948D00078AE7;
+					};
+					0D29D7613085948E00078AE7 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 0D29D74B3085948D00078AE7;
+					};
 				};
 			};
 			buildConfigurationList = 0D29D7193085933B00078AE7 /* Build configuration list for PBXProject "MCaddie" */;
@@ -189,6 +343,9 @@
 				0D29D71D3085933B00078AE7 /* MCaddie */,
 				0D29D72C3085933D00078AE7 /* MCaddieTests */,
 				0D29D7363085933D00078AE7 /* MCaddieUITests */,
+				0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */,
+				0D29D7573085948E00078AE7 /* MCaddie Watch App Watch AppTests */,
+				0D29D7613085948E00078AE7 /* MCaddie Watch App Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,6 +354,7 @@
 		0D29D71C3085933B00078AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				0D29D77630859C5D00078AE7 /* .gitignore in Resources */,
 			);
 		};
 		0D29D72B3085933D00078AE7 /* Resources */ = {
@@ -205,6 +363,21 @@
 			);
 		};
 		0D29D7353085933D00078AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0D29D74A3085948D00078AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0D29D7563085948E00078AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0D29D7603085948E00078AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -227,6 +400,21 @@
 			files = (
 			);
 		};
+		0D29D7483085948D00078AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0D29D7543085948E00078AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		0D29D75E3085948E00078AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -239,6 +427,21 @@
 			isa = PBXTargetDependency;
 			target = 0D29D71D3085933B00078AE7 /* MCaddie */;
 			targetProxy = 0D29D7383085933D00078AE7 /* PBXContainerItemProxy */;
+		};
+		0D29D75A3085948E00078AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */;
+			targetProxy = 0D29D7593085948E00078AE7 /* PBXContainerItemProxy */;
+		};
+		0D29D7643085948E00078AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */;
+			targetProxy = 0D29D7633085948E00078AE7 /* PBXContainerItemProxy */;
+		};
+		0D29D7693085948E00078AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */;
+			targetProxy = 0D29D7683085948E00078AE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -379,6 +582,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -411,6 +615,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,6 +717,162 @@
 			};
 			name = Release;
 		};
+		0D29D76C3085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MCaddie Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mjia.MCaddie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		0D29D76D3085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MCaddie Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mjia.MCaddie;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddie.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
+		0D29D7703085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjia.MCaddie-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCaddie Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MCaddie Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		0D29D7713085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjia.MCaddie-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCaddie Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MCaddie Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		0D29D7733085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjia.MCaddie-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MCaddie Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		0D29D7743085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6URUV3N465;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mjia.MCaddie-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MCaddie Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,6 +905,30 @@
 			buildConfigurations = (
 				0D29D7463085933D00078AE7 /* Debug configuration for PBXNativeTarget "MCaddieUITests" */,
 				0D29D7473085933D00078AE7 /* Release configuration for PBXNativeTarget "MCaddieUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0D29D76B3085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D29D76C3085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch App" */,
+				0D29D76D3085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0D29D76F3085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D29D7703085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch AppTests" */,
+				0D29D7713085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		0D29D7723085948E00078AE7 /* Build configuration list for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D29D7733085948E00078AE7 /* Debug configuration for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */,
+				0D29D7743085948E00078AE7 /* Release configuration for PBXNativeTarget "MCaddie Watch App Watch AppUITests" */,
 			);
 			defaultConfigurationName = Release;
 		};
