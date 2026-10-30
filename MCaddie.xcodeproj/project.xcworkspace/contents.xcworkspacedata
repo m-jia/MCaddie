@@ -4,4 +4,10 @@
    <FileRef
       location = "self:">
    </FileRef>
+   <FileRef
+      location = "group:PersistenceTests_Fixed.swift">
+   </FileRef>
+   <FileRef
+      location = "group:LOCATIONSERVICE_FIX.md">
+   </FileRef>
 </Workspace>

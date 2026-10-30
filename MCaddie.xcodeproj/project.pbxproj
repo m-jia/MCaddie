@@ -7,8 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1F21AC3086DD1C007977B4 /* WatchWelcomeView_Minimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F21AB3086DD1C007977B4 /* WatchWelcomeView_Minimal.swift */; };
+		0D1F21AE3086DD24007977B4 /* WatchWelcomeView_Compatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F21AD3086DD24007977B4 /* WatchWelcomeView_Compatible.swift */; };
 		0D29D76A3085948E00078AE7 /* MCaddie Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0D29D77630859C5D00078AE7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D77530859C5500078AE7 /* .gitignore */; };
+		0D29D7963086963C00078AE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D7923086963C00078AE7 /* README.md */; };
+		0D29D7993086963C00078AE7 /* PRODUCT_SPEC.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D7903086963C00078AE7 /* PRODUCT_SPEC.md */; };
+		0D29D79E3086964600078AE7 /* ARCHITECTURE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D79B3086964600078AE7 /* ARCHITECTURE.md */; };
+		0D29D7A03086964600078AE7 /* DATA_MODEL.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D79C3086964600078AE7 /* DATA_MODEL.md */; };
+		0D29D7A13086964600078AE7 /* AGENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D79A3086964600078AE7 /* AGENTS.md */; };
+		0DA24A5A308D6B3C002284A3 /* MCADDIECORE_IMPORT_FIX.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A59308D6B3C002284A3 /* MCADDIECORE_IMPORT_FIX.md */; };
+		0DA24A5D308D6B76002284A3 /* MCaddieCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA24A5C308D6B76002284A3 /* MCaddieCore */; };
+		0DA24A5F308D6B85002284A3 /* MCaddieCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA24A5E308D6B85002284A3 /* MCaddieCore */; };
+		0DA24A61308D6B9E002284A3 /* MCaddieCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA24A60308D6B9E002284A3 /* MCaddieCore */; };
+		0DA24A63308D6BA8002284A3 /* MCaddieCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0DA24A62308D6BA8002284A3 /* MCaddieCore */; };
+		0DA24A6F308D716A002284A3 /* GolfCourse.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A6E308D716A002284A3 /* GolfCourse.gpx */; };
+		0DA24A72308D7670002284A3 /* organize_files.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A71308D7670002284A3 /* organize_files.sh */; };
+		0DA24A74308D7693002284A3 /* DOCUMENTATION_ORGANIZATION.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A73308D7693002284A3 /* DOCUMENTATION_ORGANIZATION.md */; };
+		0DA24A94308D775A002284A3 /* FIX_WATCH_VIEW_ERROR.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A7B308D775A002284A3 /* FIX_WATCH_VIEW_ERROR.md */; };
+		0DA24A95308D775A002284A3 /* FILE_ORGANIZATION_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A80308D775A002284A3 /* FILE_ORGANIZATION_GUIDE.md */; };
+		0DA24A96308D775A002284A3 /* XCODE_WINDOW_LAYOUT_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A92308D775A002284A3 /* XCODE_WINDOW_LAYOUT_GUIDE.md */; };
+		0DA24A97308D775A002284A3 /* CONVERSATION_PERSISTENCE_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A8C308D775A002284A3 /* CONVERSATION_PERSISTENCE_GUIDE.md */; };
+		0DA24A98308D775A002284A3 /* MANUAL_ADD_SHOT_MODELS.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A8D308D775A002284A3 /* MANUAL_ADD_SHOT_MODELS.md */; };
+		0DA24A99308D775A002284A3 /* WATCH_DEPLOYMENT_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A91308D775A002284A3 /* WATCH_DEPLOYMENT_GUIDE.md */; };
+		0DA24A9A308D775A002284A3 /* PERSISTENCE_TESTS_FIXED.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A7C308D775A002284A3 /* PERSISTENCE_TESTS_FIXED.md */; };
+		0DA24A9B308D775A002284A3 /* SWIFTDATA_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A82308D775A002284A3 /* SWIFTDATA_GUIDE.md */; };
+		0DA24A9C308D775A002284A3 /* TEST_SUCCESS_REPORT.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A90308D775A002284A3 /* TEST_SUCCESS_REPORT.md */; };
+		0DA24A9D308D775A002284A3 /* PROJECT_STATUS.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A88308D775A002284A3 /* PROJECT_STATUS.md */; };
+		0DA24A9E308D775A002284A3 /* FIX_MCADDIECORE_PACKAGE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A78308D775A002284A3 /* FIX_MCADDIECORE_PACKAGE.md */; };
+		0DA24A9F308D775A002284A3 /* SWIFTDATA_IMPLEMENTATION_REPORT.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A8A308D775A002284A3 /* SWIFTDATA_IMPLEMENTATION_REPORT.md */; };
+		0DA24AA0308D775A002284A3 /* QUICK_START_PROMPT.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A81308D775A002284A3 /* QUICK_START_PROMPT.md */; };
+		0DA24AA1308D775A002284A3 /* QUICK_FIX_WATCH_VIEW.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A7D308D775A002284A3 /* QUICK_FIX_WATCH_VIEW.md */; };
+		0DA24AA2308D775A002284A3 /* MCaddieCoreREADME.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A8E308D775A002284A3 /* MCaddieCoreREADME.md */; };
+		0DA24AA3308D775A002284A3 /* TEST_PLAN.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A84308D775A002284A3 /* TEST_PLAN.md */; };
+		0DA24AA4308D775A002284A3 /* FIX_MCADDIECORE_STRUCTURE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A79308D775A002284A3 /* FIX_MCADDIECORE_STRUCTURE.md */; };
+		0DA24AA5308D775A002284A3 /* FIX_WATCH_CRASH.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A7A308D775A002284A3 /* FIX_WATCH_CRASH.md */; };
+		0DA24AA6308D775A002284A3 /* SHOT_MODEL_COMPLETION_REPORT.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A8F308D775A002284A3 /* SHOT_MODEL_COMPLETION_REPORT.md */; };
+		0DA24AA7308D775A002284A3 /* DECISIONS_OPEN_QUESTIONS.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A87308D775A002284A3 /* DECISIONS_OPEN_QUESTIONS.md */; };
+		0DA24AA8308D775A002284A3 /* SWIFTDATA_QUICK_REFERENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A83308D775A002284A3 /* SWIFTDATA_QUICK_REFERENCE.md */; };
+		0DA24AA9308D775A002284A3 /* BUILD_VERIFICATION.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A7F308D775A002284A3 /* BUILD_VERIFICATION.md */; };
+		0DA24AAA308D775A002284A3 /* FIX_DUPLICATE_ITEM.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A77308D775A002284A3 /* FIX_DUPLICATE_ITEM.md */; };
+		0DA24AAB308D775A002284A3 /* UI_GPS_INTEGRATION_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A85308D775A002284A3 /* UI_GPS_INTEGRATION_GUIDE.md */; };
+		0DA24AAC308D775A002284A3 /* ROADMAP.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A89308D775A002284A3 /* ROADMAP.md */; };
+		0DA24AAD308D775A002284A3 /* BUILD_FIX_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24A76308D775A002284A3 /* BUILD_FIX_GUIDE.md */; };
+		0DA24AB5308D7765002284A3 /* diagnose.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AB0308D7765002284A3 /* diagnose.sh */; };
+		0DA24AB6308D7765002284A3 /* check_environment.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AAF308D7765002284A3 /* check_environment.sh */; };
+		0DA24AB7308D7765002284A3 /* fix_mcaddiecore.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AB1308D7765002284A3 /* fix_mcaddiecore.sh */; };
+		0DA24AB8308D7765002284A3 /* add_shot_models.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AAE308D7765002284A3 /* add_shot_models.sh */; };
+		0DA24AB9308D7765002284A3 /* fix_mcaddiecore_structure.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AB2308D7765002284A3 /* fix_mcaddiecore_structure.sh */; };
+		0DA24ABA308D7765002284A3 /* recreate_mcaddiecore.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AB3308D7765002284A3 /* recreate_mcaddiecore.sh */; };
+		0DA24ABC308D7829002284A3 /* LocationPermissionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA24ABB308D7829002284A3 /* LocationPermissionTestView.swift */; };
+		0DA24ABE308D785E002284A3 /* FIX_LOCATION_PERMISSION.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24ABD308D785E002284A3 /* FIX_LOCATION_PERMISSION.md */; };
+		0DA24AC2308D7DBA002284A3 /* ROUND_MANAGEMENT_IMPROVEMENTS.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AC1308D7DBA002284A3 /* ROUND_MANAGEMENT_IMPROVEMENTS.md */; };
+		0DA24ACA308D8154002284A3 /* VIEW_REFACTORING_GUIDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24AC9308D8154002284A3 /* VIEW_REFACTORING_GUIDE.md */; };
+		0DA24ACC308D8346002284A3 /* FIX_HASHABLE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24ACB308D8346002284A3 /* FIX_HASHABLE.md */; };
+		0DA24ACE308D83C4002284A3 /* LOCATIONSERVICE_FIX.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DA24ACD308D83C4002284A3 /* LOCATIONSERVICE_FIX.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +115,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D1F21AB3086DD1C007977B4 /* WatchWelcomeView_Minimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWelcomeView_Minimal.swift; sourceTree = "<group>"; };
+		0D1F21AD3086DD24007977B4 /* WatchWelcomeView_Compatible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWelcomeView_Compatible.swift; sourceTree = "<group>"; };
 		0D29D71E3085933B00078AE7 /* MCaddie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCaddie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D72D3085933D00078AE7 /* MCaddieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCaddieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D7373085933D00078AE7 /* MCaddieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCaddieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,11 +124,103 @@
 		0D29D7583085948E00078AE7 /* MCaddie Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCaddie Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D7623085948E00078AE7 /* MCaddie Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCaddie Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D77530859C5500078AE7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0D29D7903086963C00078AE7 /* PRODUCT_SPEC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PRODUCT_SPEC.md; sourceTree = "<group>"; };
+		0D29D7923086963C00078AE7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D29D79A3086964600078AE7 /* AGENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AGENTS.md; sourceTree = "<group>"; };
+		0D29D79B3086964600078AE7 /* ARCHITECTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ARCHITECTURE.md; sourceTree = "<group>"; };
+		0D29D79C3086964600078AE7 /* DATA_MODEL.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DATA_MODEL.md; sourceTree = "<group>"; };
+		0DA24A59308D6B3C002284A3 /* MCADDIECORE_IMPORT_FIX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MCADDIECORE_IMPORT_FIX.md; sourceTree = "<group>"; };
+		0DA24A6E308D716A002284A3 /* GolfCourse.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GolfCourse.gpx; sourceTree = "<group>"; };
+		0DA24A71308D7670002284A3 /* organize_files.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = organize_files.sh; sourceTree = "<group>"; };
+		0DA24A73308D7693002284A3 /* DOCUMENTATION_ORGANIZATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DOCUMENTATION_ORGANIZATION.md; sourceTree = "<group>"; };
+		0DA24A76308D775A002284A3 /* BUILD_FIX_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUILD_FIX_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A77308D775A002284A3 /* FIX_DUPLICATE_ITEM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_DUPLICATE_ITEM.md; sourceTree = "<group>"; };
+		0DA24A78308D775A002284A3 /* FIX_MCADDIECORE_PACKAGE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_MCADDIECORE_PACKAGE.md; sourceTree = "<group>"; };
+		0DA24A79308D775A002284A3 /* FIX_MCADDIECORE_STRUCTURE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_MCADDIECORE_STRUCTURE.md; sourceTree = "<group>"; };
+		0DA24A7A308D775A002284A3 /* FIX_WATCH_CRASH.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_WATCH_CRASH.md; sourceTree = "<group>"; };
+		0DA24A7B308D775A002284A3 /* FIX_WATCH_VIEW_ERROR.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_WATCH_VIEW_ERROR.md; sourceTree = "<group>"; };
+		0DA24A7C308D775A002284A3 /* PERSISTENCE_TESTS_FIXED.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PERSISTENCE_TESTS_FIXED.md; sourceTree = "<group>"; };
+		0DA24A7D308D775A002284A3 /* QUICK_FIX_WATCH_VIEW.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QUICK_FIX_WATCH_VIEW.md; sourceTree = "<group>"; };
+		0DA24A7F308D775A002284A3 /* BUILD_VERIFICATION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = BUILD_VERIFICATION.md; sourceTree = "<group>"; };
+		0DA24A80308D775A002284A3 /* FILE_ORGANIZATION_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FILE_ORGANIZATION_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A81308D775A002284A3 /* QUICK_START_PROMPT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QUICK_START_PROMPT.md; sourceTree = "<group>"; };
+		0DA24A82308D775A002284A3 /* SWIFTDATA_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SWIFTDATA_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A83308D775A002284A3 /* SWIFTDATA_QUICK_REFERENCE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SWIFTDATA_QUICK_REFERENCE.md; sourceTree = "<group>"; };
+		0DA24A84308D775A002284A3 /* TEST_PLAN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TEST_PLAN.md; sourceTree = "<group>"; };
+		0DA24A85308D775A002284A3 /* UI_GPS_INTEGRATION_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UI_GPS_INTEGRATION_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A87308D775A002284A3 /* DECISIONS_OPEN_QUESTIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DECISIONS_OPEN_QUESTIONS.md; sourceTree = "<group>"; };
+		0DA24A88308D775A002284A3 /* PROJECT_STATUS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PROJECT_STATUS.md; sourceTree = "<group>"; };
+		0DA24A89308D775A002284A3 /* ROADMAP.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ROADMAP.md; sourceTree = "<group>"; };
+		0DA24A8A308D775A002284A3 /* SWIFTDATA_IMPLEMENTATION_REPORT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SWIFTDATA_IMPLEMENTATION_REPORT.md; sourceTree = "<group>"; };
+		0DA24A8C308D775A002284A3 /* CONVERSATION_PERSISTENCE_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONVERSATION_PERSISTENCE_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A8D308D775A002284A3 /* MANUAL_ADD_SHOT_MODELS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MANUAL_ADD_SHOT_MODELS.md; sourceTree = "<group>"; };
+		0DA24A8E308D775A002284A3 /* MCaddieCoreREADME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MCaddieCoreREADME.md; sourceTree = "<group>"; };
+		0DA24A8F308D775A002284A3 /* SHOT_MODEL_COMPLETION_REPORT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SHOT_MODEL_COMPLETION_REPORT.md; sourceTree = "<group>"; };
+		0DA24A90308D775A002284A3 /* TEST_SUCCESS_REPORT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TEST_SUCCESS_REPORT.md; sourceTree = "<group>"; };
+		0DA24A91308D775A002284A3 /* WATCH_DEPLOYMENT_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WATCH_DEPLOYMENT_GUIDE.md; sourceTree = "<group>"; };
+		0DA24A92308D775A002284A3 /* XCODE_WINDOW_LAYOUT_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = XCODE_WINDOW_LAYOUT_GUIDE.md; sourceTree = "<group>"; };
+		0DA24AAE308D7765002284A3 /* add_shot_models.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = add_shot_models.sh; sourceTree = "<group>"; };
+		0DA24AAF308D7765002284A3 /* check_environment.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = check_environment.sh; sourceTree = "<group>"; };
+		0DA24AB0308D7765002284A3 /* diagnose.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = diagnose.sh; sourceTree = "<group>"; };
+		0DA24AB1308D7765002284A3 /* fix_mcaddiecore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = fix_mcaddiecore.sh; sourceTree = "<group>"; };
+		0DA24AB2308D7765002284A3 /* fix_mcaddiecore_structure.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = fix_mcaddiecore_structure.sh; sourceTree = "<group>"; };
+		0DA24AB3308D7765002284A3 /* recreate_mcaddiecore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = recreate_mcaddiecore.sh; sourceTree = "<group>"; };
+		0DA24ABB308D7829002284A3 /* LocationPermissionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPermissionTestView.swift; sourceTree = "<group>"; };
+		0DA24ABD308D785E002284A3 /* FIX_LOCATION_PERMISSION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_LOCATION_PERMISSION.md; sourceTree = "<group>"; };
+		0DA24AC1308D7DBA002284A3 /* ROUND_MANAGEMENT_IMPROVEMENTS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ROUND_MANAGEMENT_IMPROVEMENTS.md; sourceTree = "<group>"; };
+		0DA24AC9308D8154002284A3 /* VIEW_REFACTORING_GUIDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VIEW_REFACTORING_GUIDE.md; sourceTree = "<group>"; };
+		0DA24ACB308D8346002284A3 /* FIX_HASHABLE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FIX_HASHABLE.md; sourceTree = "<group>"; };
+		0DA24ACD308D83C4002284A3 /* LOCATIONSERVICE_FIX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LOCATIONSERVICE_FIX.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0D29D7B930869BC600078AE7 /* Exceptions for "MCaddie" folder in "MCaddie" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			platformFiltersByRelativePath = {
+				DataManager.swift = (ios, );
+				Item.swift = (ios, );
+				LocationService.swift = (ios, );
+				NewRoundView.swift = (ios, );
+				PersistenceModels.swift = (ios, );
+				RecordShotView.swift = (ios, );
+				RoundDetailView.swift = (ios, );
+				RoundListView.swift = (ios, );
+				ShotDetailView.swift = (ios, );
+				iOSWelcomeView.swift = (ios, );
+			};
+			target = 0D29D71D3085933B00078AE7 /* MCaddie */;
+		};
+		0DA24A51308D66DD002284A3 /* Exceptions for "MCaddie Watch App Watch App" folder in "MCaddie Watch App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			platformFiltersByRelativePath = {
+				WatchWelcomeView.swift = (watchos, );
+			};
+			target = 0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */;
+		};
+		0DA24A53308D67BC002284A3 /* Exceptions for "MCaddie" folder in "MCaddie Watch App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DataManager.swift,
+				PersistenceModels.swift,
+			);
+			platformFiltersByRelativePath = {
+				DataManager.swift = (watchos, );
+				PersistenceModels.swift = (watchos, );
+			};
+			target = 0D29D74B3085948D00078AE7 /* MCaddie Watch App Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0D29D7203085933B00078AE7 /* MCaddie */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0D29D7B930869BC600078AE7 /* Exceptions for "MCaddie" folder in "MCaddie" target */,
+				0DA24A53308D67BC002284A3 /* Exceptions for "MCaddie" folder in "MCaddie Watch App Watch App" target */,
+			);
 			path = MCaddie;
 			sourceTree = "<group>";
 		};
@@ -89,6 +236,9 @@
 		};
 		0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0DA24A51308D66DD002284A3 /* Exceptions for "MCaddie Watch App Watch App" folder in "MCaddie Watch App Watch App" target */,
+			);
 			path = "MCaddie Watch App Watch App";
 			sourceTree = "<group>";
 		};
@@ -108,11 +258,13 @@
 		0D29D71B3085933B00078AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				0DA24A5D308D6B76002284A3 /* MCaddieCore in Frameworks */,
 			);
 		};
 		0D29D72A3085933D00078AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				0DA24A61308D6B9E002284A3 /* MCaddieCore in Frameworks */,
 			);
 		};
 		0D29D7343085933D00078AE7 /* Frameworks */ = {
@@ -123,11 +275,13 @@
 		0D29D7493085948D00078AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				0DA24A5F308D6B85002284A3 /* MCaddieCore in Frameworks */,
 			);
 		};
 		0D29D7553085948E00078AE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				0DA24A63308D6BA8002284A3 /* MCaddieCore in Frameworks */,
 			);
 		};
 		0D29D75F3085948E00078AE7 /* Frameworks */ = {
@@ -142,12 +296,28 @@
 			isa = PBXGroup;
 			children = (
 				0D29D77530859C5500078AE7 /* .gitignore */,
+				0D29D79A3086964600078AE7 /* AGENTS.md */,
+				0D29D79B3086964600078AE7 /* ARCHITECTURE.md */,
+				0D29D79C3086964600078AE7 /* DATA_MODEL.md */,
+				0D29D7903086963C00078AE7 /* PRODUCT_SPEC.md */,
+				0D29D7923086963C00078AE7 /* README.md */,
 				0D29D7203085933B00078AE7 /* MCaddie */,
 				0D29D7303085933D00078AE7 /* MCaddieTests */,
 				0D29D73A3085933D00078AE7 /* MCaddieUITests */,
 				0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */,
 				0D29D75B3085948E00078AE7 /* MCaddie Watch App Watch AppTests */,
 				0D29D7653085948E00078AE7 /* MCaddie Watch App Watch AppUITests */,
+				0D1F21AB3086DD1C007977B4 /* WatchWelcomeView_Minimal.swift */,
+				0D1F21AD3086DD24007977B4 /* WatchWelcomeView_Compatible.swift */,
+				0DA24A5B308D6B76002284A3 /* Frameworks */,
+				0DA24A6E308D716A002284A3 /* GolfCourse.gpx */,
+				0DA24A71308D7670002284A3 /* organize_files.sh */,
+				0DA24A73308D7693002284A3 /* DOCUMENTATION_ORGANIZATION.md */,
+				0DA24A93308D775A002284A3 /* Documentation */,
+				0DA24AB4308D7765002284A3 /* Scripts */,
+				0DA24AC1308D7DBA002284A3 /* ROUND_MANAGEMENT_IMPROVEMENTS.md */,
+				0DA24AC9308D8154002284A3 /* VIEW_REFACTORING_GUIDE.md */,
+				0DA24ACB308D8346002284A3 /* FIX_HASHABLE.md */,
 				0D29D71F3085933B00078AE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +333,95 @@
 				0D29D7623085948E00078AE7 /* MCaddie Watch App Watch AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA24A5B308D6B76002284A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DA24A75308D775A002284A3 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		0DA24A7E308D775A002284A3 /* Fixes */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24A76308D775A002284A3 /* BUILD_FIX_GUIDE.md */,
+				0DA24A77308D775A002284A3 /* FIX_DUPLICATE_ITEM.md */,
+				0DA24A78308D775A002284A3 /* FIX_MCADDIECORE_PACKAGE.md */,
+				0DA24A79308D775A002284A3 /* FIX_MCADDIECORE_STRUCTURE.md */,
+				0DA24A7A308D775A002284A3 /* FIX_WATCH_CRASH.md */,
+				0DA24A7B308D775A002284A3 /* FIX_WATCH_VIEW_ERROR.md */,
+				0DA24A7C308D775A002284A3 /* PERSISTENCE_TESTS_FIXED.md */,
+				0DA24A7D308D775A002284A3 /* QUICK_FIX_WATCH_VIEW.md */,
+				0DA24ABD308D785E002284A3 /* FIX_LOCATION_PERMISSION.md */,
+				0DA24ACD308D83C4002284A3 /* LOCATIONSERVICE_FIX.md */,
+				0DA24A59308D6B3C002284A3 /* MCADDIECORE_IMPORT_FIX.md */,
+			);
+			path = Fixes;
+			sourceTree = "<group>";
+		};
+		0DA24A86308D775A002284A3 /* Guides */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24A7F308D775A002284A3 /* BUILD_VERIFICATION.md */,
+				0DA24A80308D775A002284A3 /* FILE_ORGANIZATION_GUIDE.md */,
+				0DA24A81308D775A002284A3 /* QUICK_START_PROMPT.md */,
+				0DA24A82308D775A002284A3 /* SWIFTDATA_GUIDE.md */,
+				0DA24A83308D775A002284A3 /* SWIFTDATA_QUICK_REFERENCE.md */,
+				0DA24A84308D775A002284A3 /* TEST_PLAN.md */,
+				0DA24A85308D775A002284A3 /* UI_GPS_INTEGRATION_GUIDE.md */,
+			);
+			path = Guides;
+			sourceTree = "<group>";
+		};
+		0DA24A8B308D775A002284A3 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24A87308D775A002284A3 /* DECISIONS_OPEN_QUESTIONS.md */,
+				0DA24A88308D775A002284A3 /* PROJECT_STATUS.md */,
+				0DA24A89308D775A002284A3 /* ROADMAP.md */,
+				0DA24A8A308D775A002284A3 /* SWIFTDATA_IMPLEMENTATION_REPORT.md */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		0DA24A93308D775A002284A3 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24A75308D775A002284A3 /* Architecture */,
+				0DA24A7E308D775A002284A3 /* Fixes */,
+				0DA24A86308D775A002284A3 /* Guides */,
+				0DA24A8B308D775A002284A3 /* Status */,
+				0DA24A8C308D775A002284A3 /* CONVERSATION_PERSISTENCE_GUIDE.md */,
+				0DA24A8D308D775A002284A3 /* MANUAL_ADD_SHOT_MODELS.md */,
+				0DA24A8E308D775A002284A3 /* MCaddieCoreREADME.md */,
+				0DA24A8F308D775A002284A3 /* SHOT_MODEL_COMPLETION_REPORT.md */,
+				0DA24A90308D775A002284A3 /* TEST_SUCCESS_REPORT.md */,
+				0DA24A91308D775A002284A3 /* WATCH_DEPLOYMENT_GUIDE.md */,
+				0DA24A92308D775A002284A3 /* XCODE_WINDOW_LAYOUT_GUIDE.md */,
+			);
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		0DA24AB4308D7765002284A3 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				0DA24AAE308D7765002284A3 /* add_shot_models.sh */,
+				0DA24AAF308D7765002284A3 /* check_environment.sh */,
+				0DA24AB0308D7765002284A3 /* diagnose.sh */,
+				0DA24AB1308D7765002284A3 /* fix_mcaddiecore.sh */,
+				0DA24AB2308D7765002284A3 /* fix_mcaddiecore_structure.sh */,
+				0DA24AB3308D7765002284A3 /* recreate_mcaddiecore.sh */,
+				0DA24ABB308D7829002284A3 /* LocationPermissionTestView.swift */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +445,9 @@
 				0D29D7203085933B00078AE7 /* MCaddie */,
 			);
 			name = MCaddie;
+			packageProductDependencies = (
+				0DA24A5C308D6B76002284A3 /* MCaddieCore */,
+			);
 			productName = MCaddie;
 			productReference = 0D29D71E3085933B00078AE7 /* MCaddie.app */;
 			productType = "com.apple.product-type.application";
@@ -207,6 +469,9 @@
 				0D29D7303085933D00078AE7 /* MCaddieTests */,
 			);
 			name = MCaddieTests;
+			packageProductDependencies = (
+				0DA24A60308D6B9E002284A3 /* MCaddieCore */,
+			);
 			productName = MCaddieTests;
 			productReference = 0D29D72D3085933D00078AE7 /* MCaddieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -246,6 +511,9 @@
 				0D29D74D3085948D00078AE7 /* MCaddie Watch App Watch App */,
 			);
 			name = "MCaddie Watch App Watch App";
+			packageProductDependencies = (
+				0DA24A5E308D6B85002284A3 /* MCaddieCore */,
+			);
 			productName = "MCaddie Watch App Watch App";
 			productReference = 0D29D74C3085948D00078AE7 /* MCaddie Watch App Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +535,9 @@
 				0D29D75B3085948E00078AE7 /* MCaddie Watch App Watch AppTests */,
 			);
 			name = "MCaddie Watch App Watch AppTests";
+			packageProductDependencies = (
+				0DA24A62308D6BA8002284A3 /* MCaddieCore */,
+			);
 			productName = "MCaddie Watch App Watch AppTests";
 			productReference = 0D29D7583085948E00078AE7 /* MCaddie Watch App Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -335,6 +606,9 @@
 			);
 			mainGroup = 0D29D7153085933B00078AE7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0D29D71F3085933B00078AE7 /* Products */;
 			projectDirPath = "";
@@ -354,7 +628,53 @@
 		0D29D71C3085933B00078AE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				0DA24ABE308D785E002284A3 /* FIX_LOCATION_PERMISSION.md in Resources */,
 				0D29D77630859C5D00078AE7 /* .gitignore in Resources */,
+				0DA24AB5308D7765002284A3 /* diagnose.sh in Resources */,
+				0DA24AB6308D7765002284A3 /* check_environment.sh in Resources */,
+				0DA24AB7308D7765002284A3 /* fix_mcaddiecore.sh in Resources */,
+				0DA24AB8308D7765002284A3 /* add_shot_models.sh in Resources */,
+				0DA24AB9308D7765002284A3 /* fix_mcaddiecore_structure.sh in Resources */,
+				0DA24ABA308D7765002284A3 /* recreate_mcaddiecore.sh in Resources */,
+				0DA24A72308D7670002284A3 /* organize_files.sh in Resources */,
+				0D29D7963086963C00078AE7 /* README.md in Resources */,
+				0D29D7993086963C00078AE7 /* PRODUCT_SPEC.md in Resources */,
+				0DA24A74308D7693002284A3 /* DOCUMENTATION_ORGANIZATION.md in Resources */,
+				0D29D79E3086964600078AE7 /* ARCHITECTURE.md in Resources */,
+				0D29D7A03086964600078AE7 /* DATA_MODEL.md in Resources */,
+				0DA24A5A308D6B3C002284A3 /* MCADDIECORE_IMPORT_FIX.md in Resources */,
+				0DA24ACC308D8346002284A3 /* FIX_HASHABLE.md in Resources */,
+				0D29D7A13086964600078AE7 /* AGENTS.md in Resources */,
+				0DA24A6F308D716A002284A3 /* GolfCourse.gpx in Resources */,
+				0DA24A94308D775A002284A3 /* FIX_WATCH_VIEW_ERROR.md in Resources */,
+				0DA24ACA308D8154002284A3 /* VIEW_REFACTORING_GUIDE.md in Resources */,
+				0DA24A95308D775A002284A3 /* FILE_ORGANIZATION_GUIDE.md in Resources */,
+				0DA24A96308D775A002284A3 /* XCODE_WINDOW_LAYOUT_GUIDE.md in Resources */,
+				0DA24A97308D775A002284A3 /* CONVERSATION_PERSISTENCE_GUIDE.md in Resources */,
+				0DA24A98308D775A002284A3 /* MANUAL_ADD_SHOT_MODELS.md in Resources */,
+				0DA24A99308D775A002284A3 /* WATCH_DEPLOYMENT_GUIDE.md in Resources */,
+				0DA24A9A308D775A002284A3 /* PERSISTENCE_TESTS_FIXED.md in Resources */,
+				0DA24A9B308D775A002284A3 /* SWIFTDATA_GUIDE.md in Resources */,
+				0DA24A9C308D775A002284A3 /* TEST_SUCCESS_REPORT.md in Resources */,
+				0DA24A9D308D775A002284A3 /* PROJECT_STATUS.md in Resources */,
+				0DA24A9E308D775A002284A3 /* FIX_MCADDIECORE_PACKAGE.md in Resources */,
+				0DA24A9F308D775A002284A3 /* SWIFTDATA_IMPLEMENTATION_REPORT.md in Resources */,
+				0DA24AA0308D775A002284A3 /* QUICK_START_PROMPT.md in Resources */,
+				0DA24AA1308D775A002284A3 /* QUICK_FIX_WATCH_VIEW.md in Resources */,
+				0DA24AA2308D775A002284A3 /* MCaddieCoreREADME.md in Resources */,
+				0DA24AC2308D7DBA002284A3 /* ROUND_MANAGEMENT_IMPROVEMENTS.md in Resources */,
+				0DA24AA3308D775A002284A3 /* TEST_PLAN.md in Resources */,
+				0DA24ACE308D83C4002284A3 /* LOCATIONSERVICE_FIX.md in Resources */,
+				0DA24AA4308D775A002284A3 /* FIX_MCADDIECORE_STRUCTURE.md in Resources */,
+				0DA24AA5308D775A002284A3 /* FIX_WATCH_CRASH.md in Resources */,
+				0DA24AA6308D775A002284A3 /* SHOT_MODEL_COMPLETION_REPORT.md in Resources */,
+				0DA24AA7308D775A002284A3 /* DECISIONS_OPEN_QUESTIONS.md in Resources */,
+				0DA24AA8308D775A002284A3 /* SWIFTDATA_QUICK_REFERENCE.md in Resources */,
+				0DA24AA9308D775A002284A3 /* BUILD_VERIFICATION.md in Resources */,
+				0DA24AAA308D775A002284A3 /* FIX_DUPLICATE_ITEM.md in Resources */,
+				0DA24AAB308D775A002284A3 /* UI_GPS_INTEGRATION_GUIDE.md in Resources */,
+				0DA24AAC308D775A002284A3 /* ROADMAP.md in Resources */,
+				0DA24AAD308D775A002284A3 /* BUILD_FIX_GUIDE.md in Resources */,
 			);
 		};
 		0D29D72B3085933D00078AE7 /* Resources */ = {
@@ -388,6 +708,9 @@
 		0D29D71A3085933B00078AE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				0D1F21AC3086DD1C007977B4 /* WatchWelcomeView_Minimal.swift in Sources */,
+				0DA24ABC308D7829002284A3 /* LocationPermissionTestView.swift in Sources */,
+				0D1F21AE3086DD24007977B4 /* WatchWelcomeView_Compatible.swift in Sources */,
 			);
 		};
 		0D29D7293085933D00078AE7 /* Sources */ = {
@@ -577,6 +900,8 @@
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MCaddie/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -610,6 +935,8 @@
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MCaddie/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -641,7 +968,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,7 +990,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddieTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -684,6 +1011,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddieUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -704,6 +1032,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6URUV3N465;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mjia.MCaddieUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -746,7 +1075,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -779,7 +1108,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -847,7 +1176,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "MCaddie Watch App Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Debug;
 		};
@@ -869,7 +1198,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				TEST_TARGET_NAME = "MCaddie Watch App Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
 			};
 			name = Release;
 		};
@@ -933,6 +1262,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MCaddieCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0DA24A5C308D6B76002284A3 /* MCaddieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */;
+			productName = MCaddieCore;
+		};
+		0DA24A5E308D6B85002284A3 /* MCaddieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */;
+			productName = MCaddieCore;
+		};
+		0DA24A60308D6B9E002284A3 /* MCaddieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */;
+			productName = MCaddieCore;
+		};
+		0DA24A62308D6BA8002284A3 /* MCaddieCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D29D7CA3086CC1D00078AE7 /* XCLocalSwiftPackageReference "MCaddieCore" */;
+			productName = MCaddieCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D29D7163085933B00078AE7 /* Project object */;
 	validationLevel = 1;

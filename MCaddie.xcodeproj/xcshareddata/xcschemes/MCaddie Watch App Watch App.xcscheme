@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0D29D74B3085948D00078AE7"
                BuildableName = "MCaddie Watch App Watch App.app"
+               BlueprintName = "MCaddie Watch App Watch App"
                ReferencedContainer = "container:MCaddie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

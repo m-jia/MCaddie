@@ -60,3 +60,6 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+## 本地密钥（模板见 Config/Secrets.example.plist）
+MCaddie/Secrets.plist

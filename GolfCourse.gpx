@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    <!-- 春城湖畔高尔夫球场（示例位置） -->
+    <wpt lat="25.0406" lon="102.7089">
+        <name>球场发球台</name>
+    </wpt>
+    <wpt lat="25.0410" lon="102.7095">
+        <name>球场果岭</name>
+    </wpt>
+</gpx>
